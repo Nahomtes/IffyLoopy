@@ -1,9 +1,9 @@
 # IffyLoopy
-
-Loopy 
+Below are the requirement my program implementing:
+#### Loopy 
 Create ONE string variable to store the output of 5 words that a user will enter at random.
 
-Iffy 
+#### Iffy 
 Set a boolean value called redEyes.
 
 The value will depend on the value entered by the user for the question "Are your eyes red?"
@@ -21,7 +21,7 @@ Otherwise your application should print out "You look great!"
 
 Use the value of redEyes to determine whether the user should be complimented or not. 
 
-Iffy Loop 
+#### Iffy Loop 
 Make sure after the application asks the question the first time, you get a prompt asking, 
 "Do you want to try again?"
 Your application should continue until the user enters 'n' as an answer.
