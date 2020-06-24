@@ -7,11 +7,12 @@ public class IffyLoopy {
 //       Part One: Loopy
         String fiveWordsString = "";
         int numOfWord = 5;
-        for (int i= 0; i < numOfWord; i++){
+        for (int i= 1; i <= numOfWord; i++){
             System.out.println("Enter Random Word: ");
-            fiveWordsString += scanner.next();
+            if (i != numOfWord) fiveWordsString += scanner.next() + " ";
+            else fiveWordsString += scanner.next();
         }
-        System.out.printf("Your Random Words as one word: %s\n", fiveWordsString);
+        System.out.printf("Your Random Words as one string: %s\n", fiveWordsString);
 
 //       Part Two: Iffy
         String tryAgain = "n";
@@ -31,7 +32,7 @@ public class IffyLoopy {
                 System.out.println("\tYou look great!\n");
             }
 
-            System.out.println("Do you want to try again?");
+            System.out.println("Do you want to try again? (Type \"n\" to stop)");
             tryAgain = scanner.next();
         } while (!tryAgain.equals("n"));
 
